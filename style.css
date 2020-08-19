@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+   margin: 0 auto;
+   padding: 0;
+   list-style: none;
+   font-family: "맑은고딕";
+}
+body{
+   width : 1200px;
+   background-color : #ffffff;
+   font-size: 20px;
+}
+
+a{
+   text-decoration: none;
+   display: block;
+}
+.top{
+	width: 1200px;
+	height:150px;
+	float:left;
+}
+.logo{
+	float:left;
+	width:300px;
+	height:150px;
+}
+.logo img{
+	width: 300px;
+	height: 150px;
+}
+.menu{
+	float: right;
+	width: 900px;
+	height: 150px;
+	z-index: 1;
+}
+.navi{
+	float: right;
+	margin-top: 50px;
+	margin-right: 10px;
+}
+.navi>li{
+	float: left;
+}
+.navi>li>a{
+	color: black;
+	height: 60px;
+	width: 200px;
+	line-height: 60px;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.submenu{
+	width: 200px;
+	position: absolute;
+	display: none;
+	z-index: 1;
+}
+.submenu>li>a{
+	background-color: white;
+	color: black;
+	height: 40px;
+	line-height: 40px;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+}
+.bodywrap{
+	width: 1200px;
+	height: 100%;
+	float: left;
+}
+.imgslide{
+	float: right;
+	width: 1200px;
+	height: 300px;
+	position: relative;
+}
+.imgslide>a{
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.imgtext{
+	color: blue;
+	font-size: 60px;
+	height: 50px;
+	width: 500px;
+	position: absolute;
+	margin: -25px 0 0 -250px;
+	text-align: center;
+	line-height: 50px;
+	left: 50%;
+	top: 50%;
+	font-weight: bold;
+}
+.intro1{
+	float: left;
+	margin-top: 15px;
+	width: 1200px;
+	height: 300px;
+}
+.contents{
+	float: left;
+	margin-top: 10px;
+	width: 1200px;
+	height: 300px;
+}
+.notice{
+	float: left;
+	width: 400px;
+	height: 300px;
+}
+.noticemain{
+	float: left;
+	margin-bottom: 10px;
+	background-color: gray;
+	width: 100px;
+}
+.notices{
+	float: left;
+	display: block;
+	font-size: 21px;
+	margin-top: 45px;
+}
+.notices a{
+	color: black;
+}
+.gallery{
+	float: left;
+	width: 400px;
+	height: 320px;
+}
+.gallerymain{
+	margin-bottom: 5px;
+	float: left;
+	background-color: gray;
+	width: 70px;
+}
+.glimages{
+	float: left;
+	width: 400px;
+	height: 280px;
+	position: relative;
+}
+.glimages>a{
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.shortcut{
+	float: right;
+	margin-top: 10px;
+	width: 400px;
+	height: 300px;
+}
+.shortcut img{
+	float: right;
+}
+.sctext{
+	margin-left: 110px;
+	margin-top: 140px;
+	float: right;
+	height: 40px;
+	width: 200px;
+	position: absolute;
+	text-align: center;
+	font-weight: bold;
+	line-height: 40px;
+	color: white;
+	background-color: rgba(40,40,40,0.3);
+	
+}
+.shortcut img:hover{
+	opacity: 0.5;
+}
+footer{
+	float: right;
+	width: 1200px;
+	height: 150px;
+	margin-top: 15px;
+    background-color: gray;
+}
+.copy{
+	margin-left: 30px;
+	float: left;
+	height: 150px;
+	width: 600px;
+	text-align: center;
+	font-size: 24px;
+	line-height: 150px;
+}
+.site{
+	float: right;
+	height: 100px;
+	width: 200px;
+}
+.sns{
+	float: right;
+	margin-top: 10px;
+	height: 50px;
+	width: 200px;
+}
+.sns ul{
+	text-align: center;
+}
+.sns ul li{
+	display: inline-block;
+}
+.sns img{
+	height: 45px;
+	width: 45px;
+	padding: 5px;
+}
+.sns img:hover{
+	opacity: 0.5;
+}
+.familysite{
+	float: right;
+	margin-top: 10px;
+	height: 50px;
+	width: 200px;
+}
+.familysite select{
+	float: right;
+	height: 30px;
+	width: 180px;
+	margin-top: 10px;
+	margin-right: 10px;
+	font-size: 14px;
+}
